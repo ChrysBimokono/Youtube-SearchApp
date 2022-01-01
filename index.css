@@ -5,30 +5,26 @@ body{
     margin: 0;
 }
 .container{
-    background-color: red;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgb(240, 230, 230);
+    background-color: rgb(255, 250, 250);
     
 }
 
 
 #start{
-   
    justify-content: center;
    align-items: center;
-    background-color: royalblue;
     
 }
 
 #end{
     width: 20%;
-    background-color: seagreen;
-
     justify-content: space-between;
 }
 
 .body{
-    background-color: tomato;
     position: relative;
    
 }
@@ -39,35 +35,37 @@ body{
 
 .left-bar{
    width:20%;
-    background-color: sienna;
+ border: 1px solid lightgray;
+ background-color: rgb(255, 250, 250);
 }
 .right-bar{
    width: 80%;
-   background-color: rgb(63, 26, 165);
    height: 20%;
+   border: 1px solid lightgrey;
 }
 .side{
     margin-top: 2rem;
 }
 .etag{
-   background-color: seashell;
    justify-content: space-evenly;
 }
 .content{
     display: block;
+    background-color: rgb(247, 238, 238);
 
 }
 .tags{
     padding: .5rem;
     border-radius: 40%;
     justify-content: space-evenly;
-    background-color: lightgray;
+    background-color: rgb(185, 179, 179);
+  
 }
 #video-divs{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
+   
     justify-content: space-around;
 }
 
@@ -78,7 +76,6 @@ height: 1.5rem;
 }
 .video-div{
     margin-inline: auto;
-    background-color: red;
    width: 18rem;
    text-align: left;
    justify-self: center;
